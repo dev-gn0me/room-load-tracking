@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raumverfügbarkeiten</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terminal-Anzeige</title>
+  <link rel="stylesheet" href="/styles/index-list.css" />
+</head>
+<body>
+    <div class="header"></div>
+    <div class="content">
+        <div class="text">Raumverfügbarkeiten</div>
+        <table id="roomListTable">
+            <tr>
+                <th>Raum Nr.</th>
+                <th>Auslastung in %</th>
+                <th>Belegt</th>
+                <th>Kapazität</th>
+                <th>Status</th>  
+            <!-- Reihen werden dynamisch in generiert client.js -->
+            </table>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="/config.js"></script>
+    <script type="module" src="/client.js"></script>
+</body>
+</html>

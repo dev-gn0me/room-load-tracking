@@ -1,0 +1,61 @@
+<!-- Anzeige für das 800px * 480px Terminal-Display -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terminal-Anzeige</title>
+  <link rel="stylesheet" href="/styles/index-terminal.css" />
+  <script src="/scripts/updateTimeAndDate.js"></script>
+</head>
+<body>
+  <div class="terminal-index-container screen">
+    <div class="head">
+      <img id="rac-logo" src="assets/RAC-Logo.PNG" alt="RheinAhrCampus" />
+      <div class="overlap-group-1">
+        <div class="time">
+          <span id="time"></span>
+        </div>
+        <div class="date">
+          <span id="date"></span>
+        </div>
+      </div>
+    </div>
+    <div class="flex-row">
+      <div class="card-container">
+        <div class="two-card">
+          <div class="two-card-text">
+            <div class="text-card-first poppins-semi-bold-licorice-15px">Raum:</div>
+            <div class="text-card-second poppins-semi-bold-licorice-26px" id="roomNumberDisplay"></div>
+            <div class="text-card-third inter-normal-suva-gray-18px">Raum Typ</div>
+          </div>
+        </div>
+        <div class="two-card">
+          <div class="two-card-text">
+            <div class="text-card-first poppins-semi-bold-licorice-15px">Auslastung:</div>
+            <div class="text-card-second poppins-semi-bold-licorice-26px userCountCapacity">
+              <div id="currentUsersDisplay"></div>
+              <div>&nbsp;von&nbsp;</div>
+              <div id="capacityDisplay"></div>
+            </div>
+            <div class="text-card-third inter-normal-suva-gray-18px">Personen</div>
+          </div>
+          <div id="percentageBox" class="two-card-text percentage-box" role="progressbar" aria-valuenow="percentageValue" aria-valuemin="0" aria-valuemax="100" style="--value: percentageValue; width: 250px">
+          </div>  
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card-rfid-status">
+          <div class="text-rfid-status">Loading</div>
+          <div class="text-rfid-info">Loading</div>
+        </div>
+      </div>
+    </div>
+    <div class="foot"></div>
+  </div>
+  <script src="/config.js"></script>
+  <script src="/scripts/applyStyle.js"></script>
+  <script type="module" src="/client.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+{
+  "free-reading": {
+    "box": {
+      "backgroundColor": "#E1FFE4",
+      "borderColor": "#3AFF4E"
+    },
+
+    "text": {
+      "content": "FREI",
+      "fontSize": "104px",
+      "fontFamily": "Poppins",
+      "color": "#35EA4840",
+      "marginBottom": "0px"
+    },
+
+    "infotext": {
+      "content": "Zum Ein- und Ausloggen bitte die RFID-\nKarte an den Kartenleser halten.",
+      "fontSize": "16px",
+      "fontFamily": "Poppins",
+      "color": "#000000",
+      "marginTop": "0px"
+    },
+
+    "widgetCircle": {
+      "color": "#49B8C9",
+      "--primary": "#FF4400",
+      "--secondary": "#3AFF4E50"
+    }
+  },
+
+  "used-reading": {
+    "box": {
+        "backgroundColor": "#FFFF0026",
+        "borderColor": "#FFFF00"
+    },
+    "text": {
+        "content": "BELEGT",
+        "fontSize": "86px",
+        "fontFamily": "Poppins",
+        "color": "#F3FF508C",
+        "marginBottom": "0px"
+    },
+    "infotext": {
+        "content": "Zum Ein- und Ausloggen bitte die RFID-\nKarte an den Kartenleser halten.",
+        "fontSize": "16px",
+        "fontFamily": "Poppins",
+        "color": "#000000",
+        "marginTop": "0px"
+    },
+    "widgetCircle": {
+      "color": "#49B8C9",
+      "--primary": "#FF4400",
+      "--secondary": "#FFFF0025"
+    }
+},
+
+  "full-reading": {
+    "box": {
+        "backgroundColor": "#FF440026",
+        "borderColor": "#FF4400"
+      },
+  
+      "text": {
+        "content": "VOLL",
+        "fontSize": "104px",
+        "fontFamily": "Poppins",
+        "color": "#FE9C888C",
+        "marginBottom": "0px"
+      },
+  
+      "infotext": {
+        "content": "Zum Ein- und Ausloggen bitte die RFID-\nKarte an den Kartenleser halten.",
+        "fontSize": "16px",
+        "fontFamily": "Poppins",
+        "color": "#000000",
+        "marginTop": "0px"
+      },
+
+      "widgetCircle": {
+        "color": "#49B8C9",
+        "--primary": "#FF4400",
+        "--secondary": "#FFFF0025"
+      }
+  },
+
+  "login-valid": {
+    "box": {
+        "backgroundColor": "#3AFF4E",
+        "borderColor": "#3AFF4E"
+      },
+  
+      "text": {
+        "content": "Login bestätigt!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#ffffff",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Es wurden keine persönliche Daten erfasst!",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#ffffff",
+        "marginTop": "30px"
+      }
+  },
+
+  "logout-valid": {
+    "box": {
+        "backgroundColor": "#FF4400",
+        "borderColor": "#FF4400"
+      },
+  
+      "text": {
+        "content": "Logout bestätigt!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#ffffff",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Es wurden keine persönliche Daten erfasst!",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#ffffff",
+        "marginTop": "30px"
+      }
+  },
+
+  "login-invalid": {
+    "box": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#FF4400"
+      },
+  
+      "text": {
+        "content": "FEHLER!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Es gab ein Problem beim Login",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginTop": "30px"
+      }
+  },
+
+  "logout-invalid": {
+    "box": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#FF4400"
+      },
+  
+      "text": {
+        "content": "FEHLER!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Es gab ein Problem beim Logout",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginTop": "30px"
+      }
+  },
+
+  "register-valid": {
+    "box": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#3AFF4E"
+      },
+  
+      "text": {
+        "content": "Karte registriert",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Sie wurden erfolgreich im System registriert",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#3AFF4E",
+        "marginTop": "30px"
+      }
+  },
+
+  "register-invalid": {
+    "box": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#FF4400"
+      },
+  
+      "text": {
+        "content": "FEHLER!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Es gab ein Problem beim Registrieren",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginTop": "30px"
+      }
+  },
+
+  "event-claim-valid": {
+    "box": {
+        "backgroundColor": "#49B8C9",
+        "borderColor": "#FFFFFF"
+      },
+  
+      "text": {
+        "content": "Raum beansprucht!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#FFFFFF",
+        "marginBottom": "30px"
+      },
+  
+      "infotext": {
+        "content": "Es wurden keine persönliche Daten erfasst!",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#FFFFFF",
+        "marginTop": "30px"
+      }
+  },
+
+  "event-claim-invalid": {
+    "box": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#49B8C9"
+      },
+  
+      "text": {
+        "content": "FEHLER!",
+        "fontSize": "31px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginBottom": "30px"
+        
+      },
+  
+      "infotext": {
+        "content": "Es gab ein Problem beim Beanspruchen",
+        "fontSize": "14px",
+        "fontFamily": "Poppins",
+        "color": "#FF4400",
+        "marginTop": "30px"
+      }
+  },
+
+  "event-blocked": {
+    "box": {
+        "backgroundColor": "#49B8C9",
+        "borderColor": "#FFFFFF"
+      },
+  
+      "text": {
+        "content": "EVENT",
+        "fontSize": "86px",
+        "fontFamily": "Poppins",
+        "color": "#FFFFFF",
+        "marginBottom": "0px"
+      },
+  
+      "infotext": {
+        "content": " ",
+        "fontSize": "",
+        "fontFamily": "",
+        "color": "#",
+        "marginTop": "0px"
+      },
+      "widgetCircle": {
+        "color": "#49B8C9",
+        "--primary": "#FF4400",
+        "--secondary": "#49B8C950"
+      }
+  }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin-Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .form-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    form {
+      flex: 1 0 250px; /* flex-grow | flex-shrink | flex-basis */
+      margin: 10px;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Admin-Panel</h1>
+
+  <div class="form-container">
+    <form id="assign-room-form">
+      <h2>Assign Room</h2>
+      <label for="assign-card-id">Karten ID:</label>
+      <input type="text" id="assign-card-id">
+      <label for="assign-room-id">Raum ID:</label>
+      <input type="text" id="assign-room-id">
+      <button type="submit">Assign Room</button>
+    </form>
+
+    <form id="leave-room-form">
+      <h2>Leave Room</h2>
+      <label for="leave-card-id">Karten ID:</label>
+      <input type="text" id="leave-card-id">
+      <button type="submit">Leave Room</button>
+    </form>
+
+    <form id="clear-and-claim-room-form">
+      <h2>Clear & Claim Room</h2>
+      <label for="clear-and-claim-room-id">Raum ID:</label>
+      <input type="text" id="clear-and-claim-room-id">
+      <button type="submit">Clear&Claim Room</button>
+    </form>
+
+    <form id="simulate-swipe-form">
+      <h2>Simulate Card Swipe</h2>
+      <label for="simulate-card-id">Card ID:</label>
+      <input type="text" id="simulate-card-id">
+      <label for="simulate-room-id">Room ID:</label>
+      <input type="text" id="simulate-room-id">
+      <button type="submit">Simulate Card Swipe</button>
+    </form>
+  </div>
+
+  <h2>Räume</h2>
+  <div id="rooms"></div>
+
+  <h2>Benutzer</h2>
+  <div id="roomusers"></div>
+
+  <script src="/config.js"></script>
+  <script src="/admin-panel.js"></script>
+</body>
+</html>
