@@ -3,9 +3,9 @@
 const WebSocket = require('ws');
 const db = require('./connection.js');
 const dbEventEmitter = require('./events.js');
-const httpServer = require('./httpServer');
+const httpServer = require('./httpServer.js');
 const controlFlow = require('./controlFlow.js');
-const checkStaffInRoom = require('./db_functions').checkStaffInRoom;
+const checkStaffInRoom = require('./db_functions.js').checkStaffInRoom;
 
 // Erstelle Websocket Server ohne HTTP Server
 const wss = new WebSocket.Server({ noServer: true });

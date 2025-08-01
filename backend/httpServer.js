@@ -5,7 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const db = require('./connection.js'); 
 const controlFlow = require('./controlFlow.js');
-const { assignRoom, clearAndClaimRoom, leaveRoom } = require('./db_functions');
+const { assignRoom, clearAndClaimRoom, leaveRoom } = require('./db_functions.js');
 
 const app = express();
 app.use(bodyParser.json());

@@ -1,5 +1,5 @@
 // socket.js
-import * as ui from './ui.js';
+import * as ui from './frontend/ui.js';
 export function initializeWebSocket(roomNumber, clientType) {
     const ws = new WebSocket(window.env.WS_URL);
   
